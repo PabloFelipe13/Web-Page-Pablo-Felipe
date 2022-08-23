@@ -1,0 +1,97 @@
+
+
+
+header{
+  border: 3px solid #000000;
+  background: #CCCCCC;
+}
+
+
+.menu{
+  max-width: 100%;
+  min-width: 320px;
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  right: 0;
+  top: 150px;
+  padding-right: 50px;
+}
+
+nav li{
+  display: inline;
+  padding-left: 10px;
+  position: relative;
+}
+
+nav a{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+nav a:hover{
+  color: blue;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 50px;
+}
+
+.conteudodapagina{
+  max-width: 100%;
+  min-width: 320px;
+  width: 750px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+  padding: 50px 0;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+h1 > strong {
+  box-shadow: 3px 3px 3px 3px;
+}
+
+
+#banner{
+  max-width: 100%;
+  width: 750px;
+  height: 375px;
+  position: absolute;
+  margin-top: 50px;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+footer {
+  background: #CCCCCC;
+  text-align: center;
+}
+
+.logorodape {
+    width: 60px;
+    height: 60px;
+    padding: 10px  0;
+}
+
+footer p {
+  padding: 10px 0;
+}
